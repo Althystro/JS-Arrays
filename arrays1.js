@@ -13,7 +13,7 @@ let groceries = [
 //let me know if i should remove it
 //2. Print the second element from the array groceries
 
-console.log(groceries[2]);
+console.log(groceries[1]);
 
 //3. Print how many elements are in the array (i.e length of the array)
 
