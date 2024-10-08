@@ -112,5 +112,5 @@ function youGottaCalmDown(shout) {
     return shout.slice(0, index + 1);
   }
 }
-let shout = "HI!!!!!!!!!!";
+let shout = "HI!!!!!!!!!!!!!!";
 console.log(youGottaCalmDown(shout));
