@@ -20,6 +20,8 @@ console.log(groceries[1]);
 console.log(groceries.length);
 
 //4. Print the last element in the array
+const lastElement = groceries[groceries.length - 1];
+console.log(lastElement);
 //5. Remove the last element from the array and print it
 
 console.log(groceries.pop());
@@ -36,7 +38,7 @@ console.log(groceries);
 
 let firstThreeItems = [];
 
-firstThreeItems.push(groceries[0], groceries[1], groceries[2]);
+firstThreeItems.push(groceries.slice(0, 3));
 
 console.log(firstThreeItems);
 
